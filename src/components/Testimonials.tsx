@@ -5,10 +5,10 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const Testimonials = () => {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[40rem] w-full flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.08] items-center justify-center relative overflow-hidden">
         <Spotlight></Spotlight>
       <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl mb-10">
-        Learn With the Best
+        The Best Harmony of Our Learners
       </p>
       <InfiniteMovingCards
         items={testimonials}
