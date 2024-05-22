@@ -35,6 +35,10 @@ const HeroSection = () => {
           </div>
         </LampContainer>
       {/* </div> */}
+      <Spotlight
+        className="-bottom-40 right-0 md:right-60 md:-bottom-20"
+        fill="cyan"
+      />
     </div>
   );
 };
