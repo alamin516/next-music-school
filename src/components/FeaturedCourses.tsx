@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Image from "next/image";
@@ -39,7 +40,7 @@ const FeaturedCourses: React.FC<FeaturedCoursesProps> = ({ courses }) => {
             if(i <= 3){
               return (
                 <div key={course.id} className="flex justify-center">
-                  <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+                  <BackgroundGradient className="flex flex-col md:rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                     <Image
                       src={image}
                       alt="jordans"
