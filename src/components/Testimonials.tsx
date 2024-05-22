@@ -7,9 +7,9 @@ const Testimonials = () => {
   return (
     <div className="h-[40rem] w-full flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.08] items-center justify-center relative overflow-hidden">
         <Spotlight></Spotlight>
-      <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl mb-10">
+      <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl mb-10 text-center">
         The Best Harmony of Our Learners
-      </p>
+      </h2>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
