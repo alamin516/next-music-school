@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import courseData from "../data/courses.json";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Testimonials from "@/components/Testimonials";
 
 async function getData() {
   return courseData
@@ -15,6 +16,7 @@ return (
       <HeroSection/>
       <FeaturedCourses courses={data['courses']}/>
       <WhyChooseUs/>
+      <Testimonials/>
     </main>
   );
 }
