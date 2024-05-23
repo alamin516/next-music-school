@@ -4,6 +4,7 @@ import courseData from "../data/courses.json";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import Projects from "@/components/Projects";
+import Instructors from "@/components/Instructors";
 
 async function getData() {
   return courseData;
@@ -18,6 +19,7 @@ export default async function Home() {
         <WhyChooseUs />
         <Testimonials />
         <Projects />
+        <Instructors/>
     </main>
   );
 }
