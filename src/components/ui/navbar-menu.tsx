@@ -38,11 +38,11 @@ export const MenuItem = ({
           transition={transition}
         >
           {active === item && children && (
-            <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-4">
+            <div className="absolute top-[calc(100%_+_0.8rem)] left-1/2 transform -translate-x-1/2 pt-4">
               <motion.div
                 transition={transition}
                 layoutId="active" 
-                className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
+                className="border border-transparent dark:bg-black/90 dark:border-cyan-600/[0.2] bg-white shadow-input flex justify-center space-x-6 md:px-6 py-6 shadow shadow-cyan-600 backdrop-blur"
               >
                 <motion.div
                   layout 
