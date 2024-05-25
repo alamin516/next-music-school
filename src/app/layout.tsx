@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
+import ScrollButton from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +26,8 @@ export default function RootLayout({
         </div>
         {children}
         <Footer/>
+        <Toaster position="top-center" reverseOrder={false} />
+        <ScrollButton />
       </body>
     </html>
   );

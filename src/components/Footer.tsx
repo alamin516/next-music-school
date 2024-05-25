@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Subscribe from "./Subscribe";
 
 const Footer = () => {
   return (
@@ -44,6 +45,7 @@ const Footer = () => {
         </div>
         <div>
         <h2 className="text-xl font-bold mb-4">Subscribe</h2>
+        <Subscribe/>
         </div>
       </div>
       <p className="text-center pt-12 text-xs">&copy;2024 - All Rights Reserved - Music School</p>
